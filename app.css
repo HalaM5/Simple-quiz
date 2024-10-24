@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10% 0;
+    height: 100vh;
+}
+
+form{
+    width: 70%;
+    height: 70%;
+    border: 2px solid gray;
+    background-color: blanchedalmond;
+    padding: 5px;
+    font-size: 2rem;
+
+}
+fieldset{
+    position: relative;
+    padding: 50px;
+    height: 90%;
+    /* background-color: azure; */
+    border: none;
+}
+
+label::after {
+    content: "";
+    display: block;
+    padding: 5px;
+}
+
+#submit{
+    position: absolute;
+    right: 10px;
+    width: 100px;
+    padding: 10px;
+    bottom: -20px;
+}
+
+p{
+    position: absolute;
+    bottom: 100px;
+}
