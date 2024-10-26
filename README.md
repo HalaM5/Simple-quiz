@@ -1,5 +1,5 @@
 # Description and purpose:
-Create a simple environment for a similar online testing environment that my little niece will take and break the fear of testing
+I started this simple environment to simulate an online testing environment that my little niece would take and break the fear of testing, its purpose was for practice and after joining Chingu I modified it and added more functions like score calculation, alert message indicating wrong or correct answer.
 
 
 ### How does it work:
@@ -13,5 +13,5 @@ Create a simple environment for a similar online testing environment that my lit
 
 ### Development envirnoment :
 * Visual studio code.
-* developer tools on firefox browser
+* developer tools on firefox browser.
 

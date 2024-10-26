@@ -35,6 +35,12 @@ label::after {
     display: block;
     padding: 5px;
 }
+span {
+    position: absolute;
+    color: red;
+    right: 10px;
+
+}
 
 #submit{
     position: absolute;
@@ -42,9 +48,32 @@ label::after {
     width: 100px;
     padding: 10px;
     bottom: -20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(244, 178, 97);
+}
+#submit{
+   box-shadow: 0 0 13px orange;
 }
 
 p{
     position: absolute;
     bottom: 100px;
+}
+
+.right  {
+    width: 100px;
+    height: 50px;
+    background-image: url('images/rightsign.png');
+    background-size:cover;
+    background-position: center;
+}
+
+.wrong  {
+    width: 100px;
+    height: 50px;
+    background-image: url('images/wrongsign.png');
+    background-size:cover;
+    background-position: center;
 }
